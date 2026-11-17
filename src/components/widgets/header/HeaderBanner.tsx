@@ -12,7 +12,7 @@ export default function HeaderBanner() {
         <div
             style={{ backgroundImage: `url(${bgAbstract.src})` }}
             className={clsx(
-                "w-full flex px-2",
+                "w-full flex px-2 overflow-hidden",
                 "items-center justify-between",
                 "bg-left bg-cover md:bg-center",
                 "transition-all duration-300",
